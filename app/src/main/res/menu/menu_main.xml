@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MainActivity">
+    <item
+        android:id="@+id/action_inputMyClass_menu"
+        android:orderInCategory="100"
+        android:title="教务系统导入"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_introduce_menu"
+        android:orderInCategory="100"
+        android:title="介绍"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exit_menu"
+        android:orderInCategory="100"
+        android:title="退出"
+        app:showAsAction="never" />
+
+
+</menu>
